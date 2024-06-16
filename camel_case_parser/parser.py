@@ -40,27 +40,3 @@ def list_dict_snake(data: list[dict]):
         result_list.append(parsed_data)
     return result_list
 
-
-my_dict = {
-    'firstName': 'Jobi',
-    'lastName': 'Eren',
-    '123':'123',
-    1:'1234'
-}
-
-my_list_dict = [
-    {
-    'firstName': 'Jobi',
-    'lastName': 'Eren',
-    '123':'123',
-    1:'1234'
-},
-{
-    'firstName': 'Whoever',
-    'lastName': 'whatever'
-},
-"eren yeager"
-]
-
-print(dict_snake(my_dict))
-print(list_dict_snake(my_list_dict))
